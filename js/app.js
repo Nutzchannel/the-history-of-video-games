@@ -1,1 +1,1 @@
-// If only I had a use, JavaScript.
+// #Optional:0 Make some cool JavaScript Shenanigans happen
