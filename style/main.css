@@ -1,1 +1,33 @@
-
+header {
+    background-color: black;
+    color: white;
+}
+.padded {
+    padding: 80px;
+}
+.year {
+    color: white;
+    text-shadow: 1px 1px 0 red, 2px 2px 0 orange, 3px 3px 0 yellow, 4px 4px 0 green, 5px 5px 0 blue, 6px 6px 0 purple;
+}
+.year-60s {
+    background: url(../img/tennisfortwo.jpg) left center repeat fixed;
+    padding: 25px;
+}
+.year-70s {
+    background: url(../img/pong.png) left center repeat fixed black;
+    padding: 25px;
+}
+.date {
+    padding: 18px;
+    display: inline-block;
+    background: black;
+}
+.date h2 {
+    font-size: 2em;
+    padding: 0px;
+    padding-left: 18px;
+}
+.date h3 {
+    text-transform: uppercase;
+    text-shadow: 0px 0px 0 black;
+}
