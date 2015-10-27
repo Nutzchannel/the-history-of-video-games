@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>The History of Video Games</title>
-
+        
+        <script src="js/elevator.min.js"></script>
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="style/main.css">
     </head>
@@ -12,7 +13,7 @@
             <h1>The History of Video Games</h1>
             <h2>Spencer Baumann</h2>
         </header>
-        <div class="year genneg1">
+        <div class="year" id="genneg1">
             <h2 class="date">1950 - 1970</h2>
             <h3 class="date">The Beginning of Video Games</h3>
         </div>
@@ -27,7 +28,7 @@
             Rather than rendering full-color graphics, the Odyssey only displayed
             white boxes that would come to life by placing an overlay on your TV screen.</p>
         </article>
-        <div class="year gen0">
+        <div class="year" id="gen0">
             <h2 class="date">1972 - 1980</h2>
             <h3 class="date">Original Arcade Games / 1<sup>st</sup> Generation</h3>
         </div>
@@ -84,7 +85,15 @@
         <article class="padded">
             <p></p>
         </article>
+        <section class="padded">
+            <script>
+                window.onload = function() {
+                    var elevator = new Elevator()
+                }
+            </script>
+        </section>
 
-        <small class="padded">All pictures used in this webpage are created by the WikiMedia foundation. This content uses a CC-BY 2.0 License.</small>
+        <small class="padded">All pictures used in this webpage are created by the WikiMedia foundation. This content uses a CC-BY 2.0 License.<br>
+        This website also uses <a href="//github.com/tholman/elevator.js">Elevator.js</a> by Tim Holman.</small>
     </body>
 </html>
