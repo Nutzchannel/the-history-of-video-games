@@ -9,39 +9,39 @@ header {
     color: white;
     text-shadow: 1px 1px 0 red, 2px 2px 0 orange, 3px 3px 0 yellow, 4px 4px 0 green, 5px 5px 0 blue, 6px 6px 0 purple;
 }
-.genneg1 {
+#genneg1 {
     background: url(../img/tennisfortwo.jpg) left center repeat fixed;
     padding: 25px;
 }
-.gen0 {
+#gen0 {
     background: url(../img/pong.png) left center no-repeat fixed black;
     padding: 25px;
 }
-.gen2 {
+#gen2 {
     background: url(../img/frogger.png) left center repeat fixed;
     padding: 25px;
 }
-.gen3 {
+#gen3 {
     background: url(../img/tloz.png) left center repeat fixed;
     padding: 25px;
 }
-.gen4 {
+#gen4 {
     background: url(../img/pkmngb.png) left center repeat fixed;
     padding: 25px;
 }
-.gen5 {
+#gen5 {
     background: url(../img/myst.png) left center repeat fixed;
     padding: 25px;
 }
-.gen6 {
+#gen6 {
     background: url(../img/luigismansion.jpg) left center repeat fixed;
     padding: 25px;
 }
-.gen7 {
+#gen7 {
     background: url(../img/ac.jpg) left center repeat fixed;
     padding: 25px;
 }
-.gen8 {
+#gen8 {
     background: url(../img/sploon.jpg) left center repeat fixed;
     padding: 25px;
 }
