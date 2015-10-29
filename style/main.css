@@ -62,3 +62,16 @@ header {
 #elevator-button {
     cursor: pointer;
 }
+#smaller {
+    width: 25%;
+    height: 25%;
+}
+.tleft {
+    float: left;
+    clear: left;
+    margin: .5em 1.4em 1.3em 0;
+    display: block;
+}
+article {
+    display: block;
+}
